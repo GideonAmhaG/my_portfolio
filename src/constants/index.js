@@ -15,10 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  unity,
+  cSharp,
+  pixiJS,
+  phaedrus,
+  efuye,
+  aau,
   carrent,
   jobit,
   tripguide,
@@ -88,14 +90,14 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -112,13 +114,25 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "unity",
+    icon: unity,
+  },
+  {
+    name: "cSharp",
+    icon: cSharp,
+  },
+  {
+    name: "pixiJS",
+    icon: pixiJS,
+  },
 ];
 
 const experiences = [
   {
     title: "Game Developer",
     company_name: "Efuye Gela Technology Events and Consultancy PLC",
-    icon: starbucks,
+    icon: efuye,
     iconBg: "#383E56",
     date: "Jun 2024 - Current",
     points: [
@@ -128,7 +142,7 @@ const experiences = [
   {
     title: "Front-End Engineer and Game Developer",
     company_name: "Phaedrus Studios",
-    icon: starbucks,
+    icon: phaedrus,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Current",
     points: [
@@ -140,7 +154,7 @@ const experiences = [
   {
     title: "Lecturer",
     company_name: "Addis Ababa University",
-    icon: tesla,
+    icon: aau,
     iconBg: "#383E56",
     date: "Sep 2017 - Current",
     points: [
@@ -156,7 +170,7 @@ const experiences = [
   {
     title: "Assistant Lecturer",
     company_name: "Addis Ababa University",
-    icon: shopify,
+    icon: aau,
     iconBg: "#E6DEDD",
     date: "Jul 2013 - Sep 2017",
     points: [
