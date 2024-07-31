@@ -23,6 +23,10 @@ import threejs from "./tech/threejs.svg";
 import unity from "./tech/unity.png";
 import cSharp from "./tech/cSharp.png";
 import pixiJS from "./tech/pixiJS.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import bash from "./tech/bash.png";
+import graphql from "./tech/graphql.png";
 
 import phaedrus from "./company/phaedrus.png";
 import efuye from "./company/efuye.png";
@@ -57,6 +61,10 @@ export {
   unity,
   cSharp,
   pixiJS,
+  python,
+  mysql,
+  bash,
+  graphql,
   phaedrus,
   efuye,
   aau,

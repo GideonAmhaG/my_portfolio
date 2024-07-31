@@ -18,6 +18,10 @@ import {
   unity,
   cSharp,
   pixiJS,
+  python,
+  mysql,
+  bash,
+  graphql,
   phaedrus,
   efuye,
   aau,
@@ -106,10 +110,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -126,6 +130,22 @@ const technologies = [
     name: "pixiJS",
     icon: pixiJS,
   },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  // {
+  //   name: "bash",
+  //   icon: bash,
+  // },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
 ];
 
 const experiences = [
@@ -136,7 +156,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jun 2024 - Current",
     points: [
-      "Currently developing Weze, a visual story game designed to educate players about workplace dynamics and challenges..",
+      "Currently developing Weze, a visual story game designed to educate players about workplace dynamics and challenges.",
     ],
   },
   {
@@ -210,16 +230,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A captivating 3D portfolio website showcasing my diverse web development projects in a dynamic, interactive, and immersive digital environment.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -228,27 +248,90 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GideonAmhaG/my_portfolio",
   },
   {
-    name: "Job IT",
+    name: "Book Assignment View",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project showcases a Book Assignment View that enables users to add and remove books, demonstrating a dynamic user interface integrated with a GraphQL server.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "graphql",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
+    source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
+  },
+  {
+    name: "geotechapps",
+    description:
+      "A web app for geotechnical engineers that streamlines foundation design, showcasing my skills in web development and creating efficient, user-friendly interfaces.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://geotechapps.phaedrusstudios.com/",
+  },
+  {
+    name: "Airbnb - The Console",
+    description:
+      "Command-line tool for effective management of essential Airbnb components. Strong foundation for developing a robust and scalable platform.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bash",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/GideonAmhaG/AirBnB_clone_v4",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
   {
