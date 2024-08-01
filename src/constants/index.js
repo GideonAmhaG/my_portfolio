@@ -22,6 +22,7 @@ import {
   mysql,
   bash,
   graphql,
+  jest,
   phaedrus,
   efuye,
   aau,
@@ -146,6 +147,10 @@ const technologies = [
     name: "graphql",
     icon: graphql,
   },
+  // {
+  //   name: "jest",
+  //   icon: jest,
+  // },
 ];
 
 const experiences = [
@@ -270,6 +275,27 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
+  },
+  {
+    name: "School Dashboard",
+    description:
+      "This React app uses Redux for state management and features a dashboard with user authentication, notifications, and course management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jest",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
   },
   {
     name: "geotechapps",

@@ -27,6 +27,7 @@ import python from "./tech/python.png";
 import mysql from "./tech/mysql.png";
 import bash from "./tech/bash.png";
 import graphql from "./tech/graphql.png";
+import jest from "./tech/jest.png";
 
 import phaedrus from "./company/phaedrus.png";
 import efuye from "./company/efuye.png";
@@ -65,6 +66,7 @@ export {
   mysql,
   bash,
   graphql,
+  jest,
   phaedrus,
   efuye,
   aau,
