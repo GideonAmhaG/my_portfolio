@@ -340,16 +340,16 @@ const projects = [
     source_code_link: "https://github.com/GideonAmhaG/AirBnB_clone_v4",
   },
   {
-    name: "Trip Guide",
+    name: "Puppy Hero",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Puppy Hero is a unique 2D endless runner game built with vanilla JavaScript and playable in browsers. It won Best Indie Game of the Year at Chewatacon 2023.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -358,28 +358,41 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://puppyhero.phaedrusstudios.com/#",
   },
   {
-    name: "Trip Guide",
+    name: "Rocket Mouse",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "In Rocket Mouse, a 2D side-scroller game, you control a rocket-equipped mouse to collect coins and dodge obstacles by pressing a rocket button.",
     tags: [
       {
-        name: "nextjs",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "csharp",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GideonAmhaG/rocket_mouse",
+  },
+  {
+    name: "Cubethon",
+    description:
+      "Cubethon is an exhilarating 3D platformer where players control a cube moving through challenging environments, overcoming obstacles, and reaching the finish line.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "csharp",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/GideonAmhaG/cubethon",
   },
 ];
 
