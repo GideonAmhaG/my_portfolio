@@ -363,7 +363,8 @@ const projects = [
       },
     ],
     image: puppy,
-    source_code_link: "https://puppyhero.phaedrusstudios.com",
+    source_code_link:
+      "https://github.com/GideonAmhaG/specialization_portfolio_project",
   },
   {
     name: "Rocket Mouse",
