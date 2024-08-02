@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   typescript,
+  threejs,
   html,
   css,
   reactjs,
@@ -27,9 +28,13 @@ import {
   efuye,
   aau,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
+  book,
+  schooldash,
+  geotech,
+  airbnb,
+  puppy,
+  rmouse,
+  cubethon,
 } from "../assets";
 
 export const navLinks = [
@@ -273,7 +278,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: book,
     source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
   },
   {
@@ -294,7 +299,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: schooldash,
     source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
   },
   {
@@ -315,7 +320,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: geotech,
     source_code_link: "https://geotechapps.phaedrusstudios.com/",
   },
   {
@@ -336,7 +341,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: airbnb,
     source_code_link: "https://github.com/GideonAmhaG/AirBnB_clone_v4",
   },
   {
@@ -357,8 +362,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://puppyhero.phaedrusstudios.com/#",
+    image: puppy,
+    source_code_link: "https://puppyhero.phaedrusstudios.com",
   },
   {
     name: "Rocket Mouse",
@@ -374,7 +379,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: rmouse,
     source_code_link: "https://github.com/GideonAmhaG/rocket_mouse",
   },
   {
@@ -391,7 +396,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cubethon,
     source_code_link: "https://github.com/GideonAmhaG/cubethon",
   },
 ];

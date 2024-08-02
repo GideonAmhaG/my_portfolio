@@ -34,8 +34,13 @@ import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import book from "./book.png";
+import schooldash from "./schooldash.png";
+import geotech from "./geotech.png";
+import airbnb from "./airbnb.png";
+import puppy from "./puppy.png";
+import rmouse from "./rmouse.png";
+import cubethon from "./cubethon.png";
 
 export {
   logo,
@@ -71,6 +76,11 @@ export {
   efuye,
   aau,
   carrent,
-  jobit,
-  tripguide,
+  book,
+  schooldash,
+  geotech,
+  airbnb,
+  puppy,
+  rmouse,
+  cubethon,
 };
