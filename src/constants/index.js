@@ -214,28 +214,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I was looking for a convenient design tool and to find the geotechapps tool online was a great gift.",
+    name: "Alemayehu Ayalew",
+    designation: "Project Assistant",
+    company: "Addis Ababa Institute of Technology ",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Simplicity is the ultimate simplification. Puppy hero is a simple and yet exciting leisure time game.",
+    name: "Dagmawi Bedilu",
+    designation: "CEO",
+    company: "Efuye Gela Publishers",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank himmm enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank himmm enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/men/6.jpg",
+  // },
 ];
 
 const projects = [
