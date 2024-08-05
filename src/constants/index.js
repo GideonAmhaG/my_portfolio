@@ -27,7 +27,7 @@ import {
   phaedrus,
   efuye,
   aau,
-  carrent,
+  portfolio,
   book,
   schooldash,
   geotech,
@@ -42,9 +42,13 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -96,10 +100,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   // {
   //   name: "Node JS",
   //   icon: nodejs,
@@ -112,38 +116,38 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
   // },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
     name: "unity",
     icon: unity,
   },
-  {
-    name: "cSharp",
-    icon: cSharp,
-  },
-  {
-    name: "pixiJS",
-    icon: pixiJS,
-  },
+  // {
+  //   name: "cSharp",
+  //   icon: cSharp,
+  // },
+  // {
+  //   name: "pixiJS",
+  //   icon: pixiJS,
+  // },
   {
     name: "python",
     icon: python,
   },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
+  // {
+  //   name: "mysql",
+  //   icon: mysql,
+  // },
   // {
   //   name: "bash",
   //   icon: bash,
@@ -257,7 +261,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolio,
     source_code_link: "https://github.com/GideonAmhaG/my_portfolio",
   },
   {

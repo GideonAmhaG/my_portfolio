@@ -33,7 +33,7 @@ import phaedrus from "./company/phaedrus.png";
 import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 
-import carrent from "./carrent.png";
+import portfolio from "./portfolio.png";
 import book from "./book.png";
 import schooldash from "./schooldash.png";
 import geotech from "./geotech.png";
@@ -75,7 +75,7 @@ export {
   phaedrus,
   efuye,
   aau,
-  carrent,
+  portfolio,
   book,
   schooldash,
   geotech,
