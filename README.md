@@ -49,7 +49,7 @@ To get started with the project, follow these steps:
    ```bash
    npm run dev
 
-5. **Build the project for production(Optional):**
+5. **Build the project for production (Optional):**
    ```bash
    npm run build
 
