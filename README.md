@@ -4,6 +4,11 @@
 A captivating 3D portfolio website showcasing my diverse web development projects in a dynamic, interactive, and immersive digital environment.
 
 
+## Live Demo
+
+Check out the live demo of my portfolio [here](https://portfolio.phaedrusstudios.com/).
+
+
 ## Features
 
 - Interactive 3D elements
