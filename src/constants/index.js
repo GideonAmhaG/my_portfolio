@@ -325,7 +325,7 @@ const projects = [
       },
     ],
     image: geotech,
-    source_code_link: "https://geotechapps.phaedrusstudios.com/",
+    source_code_link: "https://github.com/GideonAmhaG/geotechapps",
   },
   {
     name: "Airbnb - The Console",
@@ -367,8 +367,7 @@ const projects = [
       },
     ],
     image: puppy,
-    source_code_link:
-      "https://github.com/GideonAmhaG/specialization_portfolio_project",
+    source_code_link: "https://github.com/GideonAmhaG/Puppy_Hero",
   },
   {
     name: "Rocket Mouse",
