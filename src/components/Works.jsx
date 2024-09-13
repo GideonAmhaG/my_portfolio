@@ -6,6 +6,31 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useState, useEffect } from "react";
+
+// Custom hook to detect window size
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return windowSize;
+};
 
 const ProjectCard = ({
   index,
@@ -64,6 +89,9 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const { width } = useWindowSize();
+  const isMobile = width <= 768; // Define the breakpoint for mobile devices
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -85,9 +113,11 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        {projects
+          .slice(0, isMobile ? 3 : projects.length)
+          .map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
       </div>
     </>
   );

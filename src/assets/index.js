@@ -28,11 +28,13 @@ import mysql from "./tech/mysql.png";
 import bash from "./tech/bash.png";
 import graphql from "./tech/graphql.png";
 import jest from "./tech/jest.png";
+import expressjs from "./tech/expressjs.png";
 
 import phaedrus from "./company/phaedrus.png";
 import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 
+import yegna from "./yegna.png";
 import portfolio from "./portfolio.png";
 import book from "./book.png";
 import schooldash from "./schooldash.png";
@@ -72,9 +74,11 @@ export {
   bash,
   graphql,
   jest,
+  expressjs,
   phaedrus,
   efuye,
   aau,
+  yegna,
   portfolio,
   book,
   schooldash,

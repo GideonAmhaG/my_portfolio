@@ -24,9 +24,11 @@ import {
   bash,
   graphql,
   jest,
+  expressjs,
   phaedrus,
   efuye,
   aau,
+  yegna,
   portfolio,
   book,
   schooldash,
@@ -66,16 +68,52 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Game Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Python Developer",
+    title: "Game Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -84,38 +122,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
   // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
+  //   name: "unity",
+  //   icon: unity,
   // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
   // {
   //   name: "git",
   //   icon: git,
@@ -128,10 +138,7 @@ const technologies = [
   //   name: "docker",
   //   icon: docker,
   // },
-  {
-    name: "unity",
-    icon: unity,
-  },
+
   // {
   //   name: "cSharp",
   //   icon: cSharp,
@@ -140,10 +147,10 @@ const technologies = [
   //   name: "pixiJS",
   //   icon: pixiJS,
   // },
-  {
-    name: "python",
-    icon: python,
-  },
+  // {
+  //   name: "python",
+  //   icon: python,
+  // },
   // {
   //   name: "mysql",
   //   icon: mysql,
@@ -152,10 +159,10 @@ const technologies = [
   //   name: "bash",
   //   icon: bash,
   // },
-  {
-    name: "graphql",
-    icon: graphql,
-  },
+  // {
+  //   name: "graphql",
+  //   icon: graphql,
+  // },
   // {
   //   name: "jest",
   //   icon: jest,
@@ -174,13 +181,13 @@ const experiences = [
     ],
   },
   {
-    title: "Front-End Engineer and Game Developer",
+    title: "Full-stack Engineer and Game Developer",
     company_name: "Phaedrus Studios",
     icon: phaedrus,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Current",
     points: [
-      "Developed and maintained web applications (including this portfolio website) using React.js and other related technologies.",
+      "Developed and maintained web applications (including this portfolio website) using MERN stack and other related technologies.",
       "Founded and led geotechapps (CEO), a web application suite empowering geotechnical engineers to automate foundation design processes. This user-friendly platform simplifies complex calculations with just a few clicks, saving engineers valuable time and resources.",
       "Developed and deployed Puppy Hero, an award-winning JavaScript 2D endless runner game playable on any web browser. This engaging game showcases programming skills and creativity in game design.",
     ],
@@ -243,6 +250,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Yegna Estate",
+    description:
+      "A comprehensive MERN estate app for managing listings with user authentication, search filters, CRUD operations, and responsive design.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yegna,
+    source_code_link: "https://github.com/GideonAmhaG/MERN-estate",
+  },
   {
     name: "3D Portfolio Website",
     description:

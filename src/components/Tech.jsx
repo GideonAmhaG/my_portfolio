@@ -1,15 +1,45 @@
+import React, { useState, useEffect } from "react";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
+// Custom hook to detect window size
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return windowSize;
+};
+
 const Tech = () => {
+  const { width } = useWindowSize();
+  const isMobile = width <= 768; // Define the breakpoint for mobile devices
+
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      {technologies.map((technology) => (
-        <div className="w-28 h-28" key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>
-      ))}
+      {technologies
+        .slice(0, isMobile ? 4 : technologies.length)
+        .map((technology) => (
+          <div className="w-28 h-28" key={technology.name}>
+            <BallCanvas icon={technology.icon} />
+          </div>
+        ))}
     </div>
   );
 };
