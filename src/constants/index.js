@@ -27,6 +27,7 @@ import {
   expressjs,
   phaedrus,
   efuye,
+  aait,
   aau,
   yegna,
   portfolio,
@@ -193,6 +194,16 @@ const experiences = [
     ],
   },
   {
+    title: "Researcher",
+    company_name: "Addis Ababa Institute of Technology",
+    icon: aait,
+    iconBg: "#E6DEDD",
+    date: "Aug 2020 - Current",
+    points: [
+      "Worked on the Ethiopian Road Authority (ERA) landslide research project, an ongoing ten-year initiative aimed at saving millions of dollars in potential damages by mitigating landslide risks along Ethiopia's transportation corridors. Played a key role in analyzing soil data and geotechnical conditions to assess landslide risk. This work has been instrumental in identifying potential hazards and informing mitigation strategies, ultimately enhancing the safety and resilience of the infrastructure.",
+    ],
+  },
+  {
     title: "Lecturer",
     company_name: "Addis Ababa University",
     icon: aau,
@@ -200,7 +211,6 @@ const experiences = [
     date: "Sep 2017 - Current",
     points: [
       "Authored the research paper - Finite Element Based Investigation of Belled Piers in Expansive Soils, published in the prestigious Computational Engineering and Physical Modeling journal. This research contributed valuable insights into the behavior of belled piers, which can improve foundation design practices, potentially saving construction companies millions of dollars in material and labor costs.",
-      "Contributed to the Ethiopian Road Authority (ERA) landslide research project, a critical initiative aimed at saving millions of dollars in potential damages by mitigating landslide risks along Ethiopia's transportation corridors. Played a key role in analyzing soil data and geotechnical conditions to assess landslide risk. This work helped identify potential hazards and inform mitigation strategies, ultimately contributing to safer and more resilient infrastructure.",
       "Guided and mentored eleven teams of BSc students in completing their theses focused on automation in Civil Engineering. These projects, including foundation design software, aimed to significantly reduce workload within the field.",
       "Contributed to the success of the annual Ethiopian Association of Civil Engineers Conference by advising a student team whose thesis research on foundation design software was presented at the event.",
       "Delivered engaging lectures to classes of up to 100 students.",

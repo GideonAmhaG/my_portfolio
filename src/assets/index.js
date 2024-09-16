@@ -33,6 +33,7 @@ import expressjs from "./tech/expressjs.png";
 import phaedrus from "./company/phaedrus.png";
 import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
+import aait from "./company/aait.jpg";
 
 import yegna from "./yegna.png";
 import portfolio from "./portfolio.png";
@@ -77,6 +78,7 @@ export {
   expressjs,
   phaedrus,
   efuye,
+  aait,
   aau,
   yegna,
   portfolio,
