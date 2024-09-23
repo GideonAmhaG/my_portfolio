@@ -31,6 +31,7 @@ import {
   aau,
   yegna,
   portfolio,
+  prstore,
   book,
   schooldash,
   geotech,
@@ -266,7 +267,7 @@ const projects = [
       "A comprehensive MERN estate app for managing listings with user authentication, search filters, CRUD operations, and responsive design.",
     tags: [
       {
-        name: "MERN",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
@@ -280,6 +281,27 @@ const projects = [
     ],
     image: yegna,
     source_code_link: "https://github.com/GideonAmhaG/MERN-estate",
+  },
+  {
+    name: "Product Store",
+    description:
+      "A scalable e-commerce platform built with the MERN stack, featuring product management, responsive UI, and dark/light modes.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chakra-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prstore,
+    source_code_link: "https://github.com/GideonAmhaG/product_store",
   },
   {
     name: "3D Portfolio Website",

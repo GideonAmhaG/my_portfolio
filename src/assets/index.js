@@ -37,6 +37,7 @@ import aait from "./company/aait.jpg";
 
 import yegna from "./yegna.png";
 import portfolio from "./portfolio.png";
+import prstore from "./prstore.png";
 import book from "./book.png";
 import schooldash from "./schooldash.png";
 import geotech from "./geotech.png";
@@ -82,6 +83,7 @@ export {
   aau,
   yegna,
   portfolio,
+  prstore,
   book,
   schooldash,
   geotech,
