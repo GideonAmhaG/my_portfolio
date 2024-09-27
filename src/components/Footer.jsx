@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center text-white">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/GideonAmhaG"
             className="mx-2"
             target="_blank"
             rel="noopener noreferrer"
