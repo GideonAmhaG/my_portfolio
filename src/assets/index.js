@@ -31,6 +31,7 @@ import jest from "./tech/jest.png";
 import expressjs from "./tech/expressjs.png";
 
 import phaedrus from "./company/phaedrus.png";
+import enechawet from "./company/enechawet.png";
 import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 import aait from "./company/aait.jpg";
@@ -78,6 +79,7 @@ export {
   jest,
   expressjs,
   phaedrus,
+  enechawet,
   efuye,
   aait,
   aau,

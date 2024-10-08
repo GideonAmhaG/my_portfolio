@@ -26,6 +26,7 @@ import {
   jest,
   expressjs,
   phaedrus,
+  enechawet,
   efuye,
   aait,
   aau,
@@ -192,6 +193,18 @@ const experiences = [
       "Developed and maintained web applications (including this portfolio website) using MERN stack and other related technologies.",
       "Founded and led geotechapps (CEO), a web application suite empowering geotechnical engineers to automate foundation design processes. This user-friendly platform simplifies complex calculations with just a few clicks, saving engineers valuable time and resources.",
       "Developed and deployed Puppy Hero, an award-winning JavaScript 2D endless runner game playable on any web browser. This engaging game showcases programming skills and creativity in game design.",
+    ],
+  },
+  {
+    title: "Game Developer",
+    company_name: "Enechawet Games",
+    icon: enechawet,
+    iconBg: "#383E56",
+    date: "Oct 2021 - Nov 2023",
+    points: [
+      "Played a key role in the development of a series of engaging games (Mamo, Meskel Bird, Guzo Ge'ez, Seenaa Fardaa, Liku, Tesfaentariyan) that address critical social issues in Ethiopia, including soil conservation (Liku), language preservation (Guzo Ge'ez), and cultural awareness (Meskel Bird).",
+      "Developed Liku, an interactive learning experience that demonstrably increased user understanding of soil conservation practices, leading to a projected 20% increase in customer engagement for Enechawet games.",
+      "Promoted literacy and knowledge of the ancient Ge'ez language among Ethiopian children through Guzo Ge'ez, an engaging game that has seen over 1,000 downloads.",
     ],
   },
   {
