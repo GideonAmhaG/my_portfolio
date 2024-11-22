@@ -36,11 +36,14 @@ import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 import aait from "./company/aait.jpg";
 
+import yegnaBlog from "./yegnaBlog.png";
 import yegna from "./yegna.png";
 import portfolio from "./portfolio.png";
 import prstore from "./prstore.png";
+import webhook from "./webhook.png";
 import book from "./book.png";
 import schooldash from "./schooldash.png";
+import foodmap from "./foodmap.png";
 import geotech from "./geotech.png";
 import airbnb from "./airbnb.png";
 import puppy from "./puppy.png";
@@ -83,11 +86,14 @@ export {
   efuye,
   aait,
   aau,
+  yegnaBlog,
   yegna,
   portfolio,
   prstore,
+  webhook,
   book,
   schooldash,
+  foodmap,
   geotech,
   airbnb,
   puppy,

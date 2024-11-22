@@ -30,11 +30,14 @@ import {
   efuye,
   aait,
   aau,
+  yegnaBlog,
   yegna,
   portfolio,
   prstore,
+  webhook,
   book,
   schooldash,
+  foodmap,
   geotech,
   airbnb,
   puppy,
@@ -67,7 +70,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -275,6 +278,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Yegna Blog",
+    description:
+      "Yegna Blog is a MERN stack app for creating and sharing blog posts with features like authentication, commenting, and an admin dashboard.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flowbite-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yegnaBlog,
+    source_code_link: "https://github.com/GideonAmhaG/yegna-blog",
+  },
+  {
     name: "Yegna Estate",
     description:
       "A comprehensive MERN estate app for managing listings with user authentication, search filters, CRUD operations, and responsive design.",
@@ -326,7 +350,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
@@ -336,6 +360,27 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/GideonAmhaG/my_portfolio",
+  },
+  {
+    name: "Transaction Webhook",
+    description:
+      "A secure webhook endpoint service that receives and processes transaction notifications, featuring signature verification, PostgreSQL storage, and Docker deployment.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webhook,
+    source_code_link: "https://github.com/GideonAmhaG/transaction-webhook",
   },
   {
     name: "Book Assignment View",
@@ -378,6 +423,27 @@ const projects = [
     ],
     image: schooldash,
     source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
+  },
+  {
+    name: "Food Map",
+    description:
+      "A React-based web app visualizing food security indicators globally, focusing on Africa, using Leaflet for maps and integrating various data sources.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "leaflet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jest",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: foodmap,
+    source_code_link: "https://github.com/GideonAmhaG/food-map",
   },
   {
     name: "geotechapps",
