@@ -280,7 +280,7 @@ const projects = [
   {
     name: "Yegna Blog",
     description:
-      "Yegna Blog is a MERN stack app for creating and sharing blog posts with features like authentication, commenting, and an admin dashboard.",
+      "Yegna Blog is a MERN app for creating and sharing blog posts with features like authentication, commenting, and an admin dashboard.",
     tags: [
       {
         name: "mern",

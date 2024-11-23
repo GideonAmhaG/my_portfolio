@@ -6,11 +6,14 @@ import * as random from "maath/random/dist/maath-random.esm";
 const Stars = (props) => {
   const ref = useRef();
 
-  const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 });
+  // Ensure the positions array is valid
+  const sphere = random.inSphere(new Float32Array(1500), { radius: 1.2 }); // Reduced the size for stability
 
   useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 10;
-    ref.current.rotation.y -= delta / 15;
+    if (ref.current) {
+      ref.current.rotation.x -= delta / 10;
+      ref.current.rotation.y -= delta / 15;
+    }
   });
 
   return (
@@ -39,7 +42,6 @@ const StarsCanvas = () => {
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>
