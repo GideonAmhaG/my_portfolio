@@ -119,6 +119,17 @@ const Works = () => {
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}
       </div>
+      <div className="w-full flex justify-center mt-10">
+        <motion.a
+          href="https://github.com/GideonAmhaG/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          variants={fadeIn("up", "spring", 0.5, 0.75)}
+        >
+          Show More Projects
+        </motion.a>
+      </div>
     </>
   );
 };

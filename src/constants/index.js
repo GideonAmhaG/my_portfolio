@@ -340,69 +340,69 @@ const projects = [
     image: prstore,
     source_code_link: "https://github.com/GideonAmhaG/product_store",
   },
-  {
-    name: "3D Portfolio Website",
-    description:
-      "A captivating 3D portfolio website showcasing my diverse web development projects in a dynamic, interactive, and immersive digital environment.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    source_code_link: "https://github.com/GideonAmhaG/my_portfolio",
-  },
-  {
-    name: "Transaction Webhook",
-    description:
-      "A secure webhook endpoint service that receives and processes transaction notifications, featuring signature verification, PostgreSQL storage, and Docker deployment.",
-    tags: [
-      {
-        name: "node.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "docker",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: webhook,
-    source_code_link: "https://github.com/GideonAmhaG/transaction-webhook",
-  },
-  {
-    name: "Book Assignment View",
-    description:
-      "This project showcases a Book Assignment View that enables users to add and remove books, demonstrating a dynamic user interface integrated with a GraphQL server.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "graphql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: book,
-    source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
-  },
+  // {
+  //   name: "3D Portfolio Website",
+  //   description:
+  //     "A captivating 3D portfolio website showcasing my diverse web development projects in a dynamic, interactive, and immersive digital environment.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "three.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio,
+  //   source_code_link: "https://github.com/GideonAmhaG/my_portfolio",
+  // },
+  // {
+  //   name: "Transaction Webhook",
+  //   description:
+  //     "A secure webhook endpoint service that receives and processes transaction notifications, featuring signature verification, PostgreSQL storage, and Docker deployment.",
+  //   tags: [
+  //     {
+  //       name: "node.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "postgresql",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "docker",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: webhook,
+  //   source_code_link: "https://github.com/GideonAmhaG/transaction-webhook",
+  // },
+  // {
+  //   name: "Book Assignment View",
+  //   description:
+  //     "This project showcases a Book Assignment View that enables users to add and remove books, demonstrating a dynamic user interface integrated with a GraphQL server.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "material-ui",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "graphql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: book,
+  //   source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
+  // },
   {
     name: "School Dashboard",
     description:
@@ -424,27 +424,27 @@ const projects = [
     image: schooldash,
     source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
   },
-  {
-    name: "Food Map",
-    description:
-      "A React-based web app visualizing food security indicators globally, focusing on Africa, using Leaflet for maps and integrating various data sources.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "leaflet",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jest",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: foodmap,
-    source_code_link: "https://github.com/GideonAmhaG/food-map",
-  },
+  // {
+  //   name: "Food Map",
+  //   description:
+  //     "A React-based web app visualizing food security indicators globally, focusing on Africa, using Leaflet for maps and integrating various data sources.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "leaflet",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "jest",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: foodmap,
+  //   source_code_link: "https://github.com/GideonAmhaG/food-map",
+  // },
   {
     name: "geotechapps",
     description:
@@ -466,27 +466,27 @@ const projects = [
     image: geotech,
     source_code_link: "https://github.com/GideonAmhaG/geotechapps",
   },
-  {
-    name: "Airbnb - The Console",
-    description:
-      "Command-line tool for effective management of essential Airbnb components. Strong foundation for developing a robust and scalable platform.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bash",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: airbnb,
-    source_code_link: "https://github.com/GideonAmhaG/AirBnB_clone_v4",
-  },
+  // {
+  //   name: "Airbnb - The Console",
+  //   description:
+  //     "Command-line tool for effective management of essential Airbnb components. Strong foundation for developing a robust and scalable platform.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "bash",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: airbnb,
+  //   source_code_link: "https://github.com/GideonAmhaG/AirBnB_clone_v4",
+  // },
   {
     name: "Puppy Hero",
     description:
@@ -508,40 +508,40 @@ const projects = [
     image: puppy,
     source_code_link: "https://github.com/GideonAmhaG/Puppy_Hero",
   },
-  {
-    name: "Rocket Mouse",
-    description:
-      "In Rocket Mouse, a 2D side-scroller game, you control a rocket-equipped mouse to collect coins and dodge obstacles by pressing a rocket button.",
-    tags: [
-      {
-        name: "unity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "csharp",
-        color: "green-text-gradient",
-      },
-    ],
-    image: rmouse,
-    source_code_link: "https://github.com/GideonAmhaG/rocket_mouse",
-  },
-  {
-    name: "Cubethon",
-    description:
-      "Cubethon is an exhilarating 3D platformer where players control a cube moving through challenging environments, overcoming obstacles, and reaching the finish line.",
-    tags: [
-      {
-        name: "unity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "csharp",
-        color: "green-text-gradient",
-      },
-    ],
-    image: cubethon,
-    source_code_link: "https://github.com/GideonAmhaG/cubethon",
-  },
+  // {
+  //   name: "Rocket Mouse",
+  //   description:
+  //     "In Rocket Mouse, a 2D side-scroller game, you control a rocket-equipped mouse to collect coins and dodge obstacles by pressing a rocket button.",
+  //   tags: [
+  //     {
+  //       name: "unity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "csharp",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: rmouse,
+  //   source_code_link: "https://github.com/GideonAmhaG/rocket_mouse",
+  // },
+  // {
+  //   name: "Cubethon",
+  //   description:
+  //     "Cubethon is an exhilarating 3D platformer where players control a cube moving through challenging environments, overcoming obstacles, and reaching the finish line.",
+  //   tags: [
+  //     {
+  //       name: "unity",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "csharp",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: cubethon,
+  //   source_code_link: "https://github.com/GideonAmhaG/cubethon",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
