@@ -44,14 +44,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a full-stack engineer with expertise in the MERN stack (MongoDB,
-        Express, React, Node.js), specializing in creating robust and dynamic
-        web applications. My skills include crafting intuitive user interfaces
-        and ensuring seamless user experiences through clean, efficient code. I
-        also develop 3D websites using Three.js and have experience in game
-        development. This combination allows me to bring both functional and
-        innovative solutions to every project. Let’s chat about your next
-        project!
+        EDIT I'm a full-stack engineer with expertise in the MERN stack
+        (MongoDB, Express, React, Node.js), specializing in creating robust and
+        dynamic web applications. My skills include crafting intuitive user
+        interfaces and ensuring seamless user experiences through clean,
+        efficient code. I also develop 3D websites using Three.js and have
+        experience in game development. This combination allows me to bring both
+        functional and innovative solutions to every project. Let’s chat about
+        your next project!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
