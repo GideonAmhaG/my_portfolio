@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a full-stack engineer with expertise in the MERN stack (MongoDB,
+        EDITI'm a full-stack engineer with expertise in the MERN stack (MongoDB,
         Express, React, Node.js), specializing in creating robust and dynamic
         web applications. My skills include crafting intuitive user interfaces
         and ensuring seamless user experiences through clean, efficient code. I
