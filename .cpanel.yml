@@ -2,6 +2,6 @@
 deployment:
   tasks:
     # Set the deployment path to the public_html directory
-    - export DEPLOYPATH=/home/phaedrrd/public_html
+    - export DEPLOYPATH=/home/phaedrrd/portfolio.phaedrusstudios.com
     # Copy all contents of the dist folder to the public_html directory
     - /bin/cp -R dist/* $DEPLOYPATH
