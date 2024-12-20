@@ -36,6 +36,7 @@ import efuye from "./company/efuye.png";
 import aau from "./company/aau.png";
 import aait from "./company/aait.jpg";
 
+import yegnaface from "./yegnaface.png";
 import yegnaBlog from "./yegnaBlog.png";
 import yegna from "./yegna.png";
 import portfolio from "./portfolio.png";
@@ -86,6 +87,7 @@ export {
   efuye,
   aait,
   aau,
+  yegnaface,
   yegnaBlog,
   yegna,
   portfolio,

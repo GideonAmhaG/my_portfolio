@@ -30,6 +30,7 @@ import {
   efuye,
   aait,
   aau,
+  yegnaface,
   yegnaBlog,
   yegna,
   portfolio,
@@ -278,6 +279,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Yegnaface",
+    description:
+      "Yegnaface is a social media app for Ethiopians, built with the MERN stack, offering features like user authentication, posting, and friend management.",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yegnaface,
+    source_code_link: "https://github.com/GideonAmhaG/yegna-face",
+  },
+  {
     name: "Yegna Blog",
     description:
       "Yegna Blog is a MERN app for creating and sharing blog posts with features like authentication, commenting, and an admin dashboard.",
@@ -403,27 +425,27 @@ const projects = [
   //   image: book,
   //   source_code_link: "https://github.com/GideonAmhaG/ElloChallenge",
   // },
-  {
-    name: "School Dashboard",
-    description:
-      "This React app uses Redux for state management and features a dashboard with user authentication, notifications, and course management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jest",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: schooldash,
-    source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
-  },
+  // {
+  //   name: "School Dashboard",
+  //   description:
+  //     "This React app uses Redux for state management and features a dashboard with user authentication, notifications, and course management.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "redux",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "jest",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: schooldash,
+  //   source_code_link: "https://github.com/GideonAmhaG/school-dashboard",
+  // },
   // {
   //   name: "Food Map",
   //   description:
