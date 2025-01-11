@@ -28,6 +28,7 @@ import {
   phaedrus,
   enechawet,
   efuye,
+  envest,
   aait,
   aau,
   yegnaface,
@@ -178,37 +179,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Game Developer",
+    title: "Developer",
     company_name: "Efuye Gela Technology Events and Consultancy PLC",
     icon: efuye,
     iconBg: "#383E56",
-    date: "Jun 2024 - Current",
+    date: "Jun 2024 - Oct 2024",
     points: [
-      "Currently developing Weze, a visual story game designed to educate players about workplace dynamics and challenges.",
+      "Developed Weze, a visual story game designed to educate players about workplace dynamics and challenges.",
+      "Tools Used: Unity, C#.",
     ],
   },
+  // {
+  //   title: "Full-stack Engineer and Game Developer",
+  //   company_name: "Phaedrus Studios",
+  //   icon: phaedrus,
+  //   iconBg: "#E6DEDD",
+  //   date: "Nov 2022 - Current",
+  //   points: [
+  //     "Developed and maintained web applications (including this portfolio website) using MERN stack and other related technologies.",
+  //     "Founded and led geotechapps (CEO), a web application suite empowering geotechnical engineers to automate foundation design processes. This user-friendly platform simplifies complex calculations with just a few clicks, saving engineers valuable time and resources.",
+  //     "Developed and deployed Puppy Hero, an award-winning JavaScript 2D endless runner game playable on any web browser. This engaging game showcases programming skills and creativity in game design.",
+  //   ],
+  // },
   {
-    title: "Full-stack Engineer and Game Developer",
-    company_name: "Phaedrus Studios",
-    icon: phaedrus,
+    title: "Full Stack Software Engineer",
+    company_name: "Envest Technologies",
+    icon: envest,
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Current",
+    date: "Dec 2023 - Current",
     points: [
-      "Developed and maintained web applications (including this portfolio website) using MERN stack and other related technologies.",
-      "Founded and led geotechapps (CEO), a web application suite empowering geotechnical engineers to automate foundation design processes. This user-friendly platform simplifies complex calculations with just a few clicks, saving engineers valuable time and resources.",
-      "Developed and deployed Puppy Hero, an award-winning JavaScript 2D endless runner game playable on any web browser. This engaging game showcases programming skills and creativity in game design.",
+      "Designed and deployed E-Shop Hub, an e-commerce platform with seamless payment integration, and Data-Vision, an analytics dashboard for real-time KPI monitoring, resulting in a combined 40% boost in sales and 50% faster decisionmaking.",
+      "Engineered Learn Ethiopia and CivicConnect, interactive web platforms for education and social engagement, enhancing accessibility features and improving user retention by 30%",
+      "Developed ContentMaster, a scalable microservices-based CMS, streamlining resource management and supporting a 200% increase in concurrent users.",
+      "Tools Used: MERN, Redux, Docker, Kubernetes, AWS, TypeScript, Jest, Git.",
     ],
   },
   {
-    title: "Game Developer",
+    title: "Developer",
     company_name: "Enechawet Games",
     icon: enechawet,
     iconBg: "#383E56",
-    date: "Oct 2021 - Nov 2023",
+    date: "Oct 2021 - Dec 2023",
     points: [
       "Played a key role in the development of a series of engaging games (Mamo, Meskel Bird, Guzo Ge'ez, Seenaa Fardaa, Liku, Tesfaentariyan) that address critical social issues in Ethiopia, including soil conservation (Liku), language preservation (Guzo Ge'ez), and cultural awareness (Meskel Bird).",
       "Developed Liku, an interactive learning experience that demonstrably increased user understanding of soil conservation practices, leading to a projected 20% increase in customer engagement for Enechawet games.",
       "Promoted literacy and knowledge of the ancient Ge'ez language among Ethiopian children through Guzo Ge'ez, an engaging game that has seen over 1,000 downloads.",
+      "Tools Used: Unity, Unreal, C#, C++.",
     ],
   },
   {
@@ -219,6 +235,7 @@ const experiences = [
     date: "Aug 2020 - Current",
     points: [
       "Worked on the Ethiopian Road Authority (ERA) landslide research project, an ongoing ten-year initiative aimed at saving millions of dollars in potential damages by mitigating landslide risks along Ethiopia's transportation corridors. Played a key role in analyzing soil data and geotechnical conditions to assess landslide risk. This work has been instrumental in identifying potential hazards and informing mitigation strategies, ultimately enhancing the safety and resilience of the infrastructure.",
+      "Tools Used: GeoStudio, ArcGIS, Google Earth, AutoCAD.",
     ],
   },
   {
@@ -230,10 +247,10 @@ const experiences = [
     points: [
       "Authored the research paper - Finite Element Based Investigation of Belled Piers in Expansive Soils, published in the prestigious Computational Engineering and Physical Modeling journal. This research contributed valuable insights into the behavior of belled piers, which can improve foundation design practices, potentially saving construction companies millions of dollars in material and labor costs.",
       "Guided and mentored eleven teams of BSc students in completing their theses focused on automation in Civil Engineering. These projects, including foundation design software, aimed to significantly reduce workload within the field.",
-      "Contributed to the success of the annual Ethiopian Association of Civil Engineers Conference by advising a student team whose thesis research on foundation design software was presented at the event.",
       "Delivered engaging lectures to classes of up to 100 students.",
       "Played a vital role in coordinating courses for up to 700 students, ensuring smooth operation with a team of up to 7 instructors.",
       "Supported faculty development by collaborating with instructors on lesson plan creation, monitoring progress against the plans, and facilitating fair and consistent student assessments.",
+      "Tools Used: Abaqus, GeoStudio, Python, C#.",
     ],
   },
   {
@@ -243,7 +260,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2013 - Sep 2017",
     points: [
-      "Prepared postgraduate entrance exam materials for the Ethiopian Road Authority and Ministry of Education. This work equipped students with the knowledge and skills necessary to succeed in their applications for advanced engineering studies.",
+      "Prepared postgraduate entrance exam materials for the Ethiopian Road Authority and Ministry of Education.",
       "Educated and managed classes of up to 80 students, fostering a positive learning environment while developing and implementing effective assessment mechanisms such as assignments and exams.",
       "Provided ongoing mentorship and guidance to students involved in internship programs and other engineering projects, supporting their professional development and ensuring successful project outcomes.",
     ],
